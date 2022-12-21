@@ -1,0 +1,298 @@
+
+body{
+    background-color: antiquewhite;
+    font-family: monospace;
+    font-size: 15px;
+    
+}
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cab{
+    padding: 20px;
+    background: #0D1323;
+    font-family: 'New Roman';
+}
+
+.loc{
+    background: #262D3E;
+}
+#loc{
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+
+.escrito{
+   padding: 100px;
+}
+
+#menu-h ul {
+    list-style-type: none;
+    padding: 15px;
+     background: #262D3E;
+    font-family: monospace;
+}
+#menu-h ul li{
+    display: inline;
+}
+#menu-h ul li a{
+    display: inline;
+    color: #FFF;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    transition: background .6s;
+}
+#menu-h ul li a:hover{
+   background-color:cadetblue;
+}
+.mapa{
+    padding: 40px;
+}
+.rodape{
+    background: #0D1321;
+    margin-top: 50px;
+    padding: 20px;
+}
+.logo{
+    float:left; 
+           
+}
+
+.barra{
+    float:right;          
+
+}
+#fatec{
+    width: 70px;
+}
+.conteudo{
+    padding: 30px;
+}
+#redes{
+    display: inline;
+}
+#redes li{
+    display: inline;
+    margin-top: 50px;
+    color: aliceblue;
+}
+.red{
+    float: right;
+}
+.coluna-50 {
+    width: 50%;
+}
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+}
+.redes{
+    display: flex;
+    flex-flow: row wrap;
+}
+#img{
+    width: 120px;
+}
+#color{
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFF;
+}
+#logos{
+    width: 70px;
+}
+#face{
+    width: 75px;
+}
+#twi{
+    width: 100px;
+}
+
+.icones-sociais li
+{
+    display: inline-block;
+    float: right;
+    width: 40px;
+    height: 40px;
+}
+a:link, a:visited, a:hover, a:active {
+    color: azure;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.social-links{
+    float:right; 
+    padding: 20px; 
+}
+.social-links svg{
+    width: 26px;
+    height: 29px;
+    line-height:34px;
+    opacity: 0.5;
+    padding-top:0px;
+}
+.social-links svg:hover{
+    opacity: 1;
+}
+.searchform{
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: center;
+    float: right;
+    width: 140px;
+}
+.searchform input{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+}
+.searchform input {
+    background-color: rgb(200,200,200);
+    color: rgb(74,85,92);
+}
+input {
+    writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 2px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+#rodape{
+    width: 200px;
+    align-items: center;
+
+}
+#not{
+    text-align: center;
+    margin-top: 40px;
+}
+.noticias{
+    background: #262D3E;
+}
+.container{
+    position: relative;
+    padding: 15px;
+    max-width: 640px;
+    margin: 0 auto; 
+}
+.gallery-wrapper{
+    overflow-x: auto;
+}
+.gallery{
+    display: flex;
+    flex-flow: row-nowrap;
+   gap:15px;
+}
+.tudo{
+    background: #262D3E;
+    padding: 25px;
+}
+.contato{
+    padding: 30px;
+    background: #5A5E69;
+    margin-top: 40px;
+    width: 80%;
+}
+#contato{
+    margin-left: 150px;
+    color: aliceblue;
+    padding: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 17px;
+}
+#mais{display: none};
+#maiss{display: none};
+
+.formatodiv{
+    padding: 50px;
+    background: black;
+    margin-top: 40px;
+}
+#formatodiv{
+    padding: 20px;
+    color: aliceblue;
+}
+ .div{
+    background: #5A5E69;
+    margin-top: 40px;
+}
+
+#colun{
+    flex-direction: column;
+}
+
+button{
+    width: 100%;
+    padding: 20px;
+    font-family: inter;
+    font-size: 15px;
+    background: rgba(9, 10, 14, 0.5);
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+button:hover{
+    background-color: rgba(9, 10, 14, 0.9);
+    color: white;
+   
+}
+.titulo{
+    color: aliceblue;
+    align-content: center;
+}
+#form{
+    font-size: 12px;
+    padding: 10px;
+    align-content: center;
+}

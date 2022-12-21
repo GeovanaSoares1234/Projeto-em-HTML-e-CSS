@@ -1,0 +1,2 @@
+F:\Fatec\diogenes\obj\x86\Debug\web.csproj.AssemblyReference.cache
+F:\Fatec\diogenes\obj\x86\Debug\web.csproj.CoreCompileInputs.cache

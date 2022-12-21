@@ -1,0 +1,123 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{6C64D2A1-2264-4715-92AA-574CB0E51333}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>web</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ACCS.html" />
+    <Content Include="ads.html" />
+    <Content Include="biblioteca.html" />
+    <Content Include="cnr-note.txt" />
+    <Content Include="Code New Roman.png" />
+    <Content Include="contato.html" />
+    <Content Include="corpos.html" />
+    <Content Include="corpotecnico.html" />
+    <Content Include="css\style.css" />
+    <Content Include="cursos.html" />
+    <Content Include="designmoda.html" />
+    <Content Include="editais.html" />
+    <Content Include="estagio.html" />
+    <Content Include="fonte\code_new_roman\cnr-note.txt" />
+    <Content Include="fonte\code_new_roman\Code New Roman.png" />
+    <Content Include="gestaoempresarial.html" />
+    <Content Include="img\-- Atenção Alunos_ Edital N º 007_2022 para o Programa de Monitoria de Disciplinas %28MD%29 para o 2º semestre de 2022 __Inscrições__-- até às 23h59min do dia 27_06_2022 _-- https___bit.ly_004-md2s2022_-- O aluno dev.jpg" />
+    <Content Include="img\-- Atenção Alunos_ Edital N º 015_2022 para o Programa de Monitoria de Disciplinas %28MD%29 para o 1º semestre de 2023 __Inscrições__-- até às 23h59min do dia 18_11_2022 _-- https___bit.ly_monitoria1s2023_-- O aluno .jpg" />
+    <Content Include="img\-- Atenção alunos_ Inscrições a partir de amanhã %2814_05%29 para três projetos de Iniciação Científica que iniciarão em agosto_2022___-- Aplicação de espessantes naturais e corantes naturais na estamparia têxtil ori.jpg" />
+    <Content Include="img\a.jpg" />
+    <Content Include="img\b.png" />
+    <Content Include="img\download.png" />
+    <Content Include="img\Edital N° 034_2021.png" />
+    <Content Include="img\facebook logo.png" />
+    <Content Include="img\fatecamoficial_20211119_p_2710615474557926071_1_2710615474557926071.jpg" />
+    <Content Include="img\gestao.jpg" />
+    <Content Include="img\Inscrições abertas_%28JPG%29.jpg" />
+    <Content Include="img\Inscrições abertas_%28JPG%29_1.jpg" />
+    <Content Include="img\Inscrições%28JPG%29_1.jpg" />
+    <Content Include="img\instagram logo.png" />
+    <Content Include="img\jg.jpeg" />
+    <Content Include="img\Logo Branca 4K.png" />
+    <Content Include="img\logo-colorido.png" />
+    <Content Include="img\moda.jpg" />
+    <Content Include="img\opção 2.jpg" />
+    <Content Include="img\producao.jpg" />
+    <Content Include="img\si.jpg" />
+    <Content Include="img\twitter logo.png" />
+    <Content Include="index.html" />
+    <Content Include="institucional.html" />
+    <Content Include="jogosdigitais.html" />
+    <Content Include="js\js.js" />
+    <Content Include="legislacaoo.html" />
+    <Content Include="logistica.html" />
+    <Content Include="missoesevalores.html" />
+    <Content Include="nossahistoria.html" />
+    <Content Include="producaotextil.html" />
+    <Content Include="regulamento.html" />
+    <Content Include="secretaria.html" />
+    <Content Include="SI.html" />
+    <Content Include="textil.html" />
+    <Content Include="vagas.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\diogenes\config\applicationhost.config" />
+    <None Include=".vs\diogenes\v16\.suo" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="Code New Roman b.otf" />
+    <None Include="Code New Roman b.woff" />
+    <None Include="Code New Roman i.otf" />
+    <None Include="Code New Roman i.woff" />
+    <None Include="Code New Roman.otf" />
+    <None Include="Code New Roman.woff" />
+    <None Include="fonte\code_new_roman.zip" />
+    <None Include="fonte\code_new_roman\Code New Roman b.otf" />
+    <None Include="fonte\code_new_roman\Code New Roman b.woff" />
+    <None Include="fonte\code_new_roman\Code New Roman i.otf" />
+    <None Include="fonte\code_new_roman\Code New Roman i.woff" />
+    <None Include="fonte\code_new_roman\Code New Roman.otf" />
+    <None Include="fonte\code_new_roman\Code New Roman.woff" />
+    <None Include="img\log.webp" />
+    <None Include="img\Opção 1.webp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
